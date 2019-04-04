@@ -18,9 +18,9 @@ end entity <entity_name>;
   
 ## :punch: Conventions for this lecture:  
 
-> Entity Name: __e_<entity_name>__  
-> Top Level Entity: e_my_<entity_name>  
-> Only one Entity per VHDL file  
+> Entity Name: **e_<entity_name>**  
+> Top Level Entity: **e_my_<entity_name>**
+> Only **ONE** Entity per VHDL file  
   
   
   
@@ -34,8 +34,8 @@ end architecture <arch_name>;
 ```
   
 ## :punch: Conventions for this lecture 
-> Architecture will be named a_<entity_name>[_x] where _x is used if more than one description exists  
-> Possibly more than __one__ architecture per VHDL file  
+> Architecture will be named **a_<entity_name>[_x]** where _x is used if more than one description exists  
+> Possibly more than **ONE** architecture per VHDL file  
   
   
   
@@ -47,8 +47,19 @@ end configuration <config_name>;
 ```
   
 ## :punch: Conventions for this lecture
-> Configuration will be named c_<entity_name>  
-
+> Configuration will be named **c_<entity_name>**  
+  
+  
+## Signals
+`signal <sig_name>: <type> [:= <default_value>];`
+`std_logic_vector(0 to 7)` **OR** `std_logic_vector(7 downto0)`
+  
+## :punch: Concention for this lecture
+> **sl_<sig_name>** for type std_logic
+> **slv_<sig_name>** for std_logic_vector
+> **b_<sig_name>** for bit
+> **bv_<sig_name>** for bit_vector
+> **B_<sig_name>** for Boolean
 
 
 
