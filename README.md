@@ -55,12 +55,34 @@ end configuration <config_name>;
 `signal <sig_name>: <type> [:= <default_value>];`  
 `std_logic_vector(0 to 7)` **OR** `std_logic_vector(7 downto0)`
   
-## :punch: Convention for this lecture
+## :punch: Conventions for this lecture
 > **sl_<sig_name>** for type std_logic  
 > **slv_<sig_name>** for std_logic_vector  
 > **b_<sig_name>** for bit  
 > **bv_<sig_name>** for bit_vector  
 > **B_<sig_name>** for Boolean  
+> **<sig_name>_int** for internal signals  
+
+## :loudspeaker:7 Segment Code 
+```
+Number     Binary Code
+ 1          "1001111"
+ 2          "0011010"
+ 3          "0000110"
+ 4          "1001100"
+ 5          "0100100"
+ 6          "0100000"
+ 7          "0001111"
+ 8          "0000000"
+ 9          "0000100"
+ 0          "0000001"
+ A          "0000010"
+ B          "1100000"
+ C          "0110001"
+ D          "1000010"
+ E          "0110000"
+ F          "0111000"
+```
 
 
 
