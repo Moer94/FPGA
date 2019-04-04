@@ -17,8 +17,8 @@ end entity <entity_name>;
 ```
 :punch:--Conventions for this lecture--
 ```
-Entity Name: **e_<entity_name>**
-Top Level Entity: **e_my_<entity_name>** 
+Entity Name: __e_<entity_name>__
+Top Level Entity: __e_my_<entity_name>__
 Only one Entity per VHDL file
 ```
 
