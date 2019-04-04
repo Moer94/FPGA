@@ -51,15 +51,15 @@ end configuration <config_name>;
   
   
 ## Signals
-`signal <sig_name>: <type> [:= <default_value>];`
+`signal <sig_name>: <type> [:= <default_value>];`  
 `std_logic_vector(0 to 7)` **OR** `std_logic_vector(7 downto0)`
   
 ## :punch: Concention for this lecture
-> **sl_<sig_name>** for type std_logic
-> **slv_<sig_name>** for std_logic_vector
-> **b_<sig_name>** for bit
-> **bv_<sig_name>** for bit_vector
-> **B_<sig_name>** for Boolean
+> **sl_<sig_name>** for type std_logic  
+> **slv_<sig_name>** for std_logic_vector  
+> **b_<sig_name>** for bit  
+> **bv_<sig_name>** for bit_vector  
+> **B_<sig_name>** for Boolean  
 
 
 
