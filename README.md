@@ -15,10 +15,19 @@ port (
 );
 end entity <entity_name>;
 ```
-:punch:--Conventions for this lecture--
+:punch:__Conventions for this lecture__:
+> Entity Name: __e_<entity_name>__
+> Top Level Entity: e_my_<entity_name>
+> Only one Entity per VHDL file
+
+
+**Architecture description**
+```vhdl
+architecture <arch_name> of <entity_name> is
+--Declarations (optional)
+begin
+--Assignments, Processes, …
+end architecture <arch_name>;
 ```
-Entity Name: __e_<entity_name>__
-Top Level Entity: __e_my_<entity_name>__
-Only one Entity per VHDL file
-```
+
 
