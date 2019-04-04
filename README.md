@@ -37,7 +37,7 @@ end architecture <arch_name>;
 > Possibly more than __one__ architecture per VHDL file  
   
   
-
+  
 **Configuration description**
 ```vhdl
 configuration <config_name> of <entity_name> is
