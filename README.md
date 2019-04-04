@@ -19,7 +19,7 @@ port (
 end entity <entity_name>;
 ```
 
-## :punch: **Entity** Conventions for this lecture:  
+## :punch: ENTITY Conventions for this lecture:  
 
 > Entity Name: **e_<entity_name>**  
 > Top Level Entity: **e_my_<entity_name>**  
@@ -36,7 +36,7 @@ begin
 end architecture <arch_name>;
 ```
   
-## :punch: Conventions for this lecture 
+## :punch: ARCHITECTURE Conventions for this lecture 
 > Architecture will be named **a_<entity_name>[_x]** where _x is used if more than one description exists  
 > Possibly more than **ONE** architecture per VHDL file  
   
@@ -47,7 +47,7 @@ for <arch_name> end for;
 end configuration <config_name>;
 ```
   
-## :punch: Conventions for this lecture
+## :punch: CONFIGURATION Conventions for this lecture
 > Configuration will be named **c_<entity_name>**  
   
   
@@ -55,7 +55,7 @@ end configuration <config_name>;
 `signal <sig_name>: <type> [:= <default_value>];`  
 `std_logic_vector(0 to 7)` **OR** `std_logic_vector(7 downto0)`
   
-## :punch: Conventions for this lecture
+## :punch: SIGNALS Conventions for this lecture
 > **sl_<sig_name>** for type std_logic  
 > **slv_<sig_name>** for std_logic_vector  
 > **b_<sig_name>** for bit  
@@ -63,7 +63,7 @@ end configuration <config_name>;
 > **B_<sig_name>** for Boolean  
 > **<sig_name>_int** for internal signals  
 
-## :loudspeaker:7 Segment Code 
+## :loudspeaker:7 Segments Code 
 ```
 Number     Binary Code
  1          "1001111"
