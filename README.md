@@ -20,7 +20,7 @@ port (
 end entity <entity_name>;
 ```
   
-## :punch: <Entity> Conventions for this lecture:  
+## :punch: **Entity** Conventions for this lecture:  
 
 > Entity Name: **e_<entity_name>**  
 > Top Level Entity: **e_my_<entity_name>**  
