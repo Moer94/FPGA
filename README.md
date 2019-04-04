@@ -62,8 +62,32 @@ end configuration <config_name>;
 > **bv_<sig_name>** for bit_vector  
 > **B_<sig_name>** for Boolean  
 > **<sig_name>_int** for internal signals  
+  
+## :loudspeaker: Generate statement
+```vhdl
+gen_assign_reverse_order: for j in 0 to 9 generate
+    slv_ledr_int(9-j) <= slv_sw_int(j);
+end generate;
+```
+## :punch: GENERATE Convention for this lecture
+> label will be named **gen_<name>**  
 
-## :loudspeaker:7 Segments Code 
+## :loudspeaker: Entities as Components
+```vhdl
+<label>: <entity_name> port map (
+    <sig_name>=><top_level_sig_name>,
+    <sig_name>=><top_level_sig_name>
+);
+-- Component instantiation (short form)
+<label>: <entity_name> port map (
+<top_level_sig_name>, <top_level_sig_name>);
+```
+## :punch: COMPONENTS Conventions for this lecture
+> only one entity per VHDL file  
+> instantiation label will be named **I_<entity_name>**  
+> long instantiation form is preferable  
+
+## :loudspeaker:7 Segments binary Code 
 ```
 Number     Binary Code
  1          "1001111"
