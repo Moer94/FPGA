@@ -15,7 +15,7 @@ port (
 );
 end entity <entity_name>;
 ```
-:punch:--Conventions for this lecture--
+:punch:--Conventions for this lecture-- \n
 Entity Name: `e_<entity_name>`
 Top Level Entity: `e_my_<entity_name>` 
 Only one Entity per VHDL file
