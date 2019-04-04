@@ -43,7 +43,7 @@ end architecture <arch_name>;
   
   
   
-##Configuration description
+## Configuration description
 ```vhdl
 configuration <config_name> of <entity_name> is
 for <arch_name> end for;
