@@ -85,7 +85,7 @@ end generate;
 ## :punch: COMPONENTS Conventions for this lecture
 > Only **ONE** entity per VHDL file  
 > Instantiation label will be named **I_<entity_name>**  
-> Long instantiation form is preferable  
+> **Long instantiation** form is preferable  
 
 ## :loudspeaker:7 Segments binary Code 
 ```
