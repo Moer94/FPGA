@@ -4,7 +4,7 @@ Kit number:
 Switches on the back should look like **[THIS](https://drive.google.com/file/d/1lKUxznqdU5AkAaFCIW5_UOV_Fr8vCqHY/view?usp=sharing)** .
 
 
-**Entity description** 
+##Entity description
 ```vhdl
 entity <entity_name> is
 port (
@@ -16,14 +16,15 @@ port (
 end entity <entity_name>;
 ```
   
-:punch: __Conventions for this lecture__:
+## :punch: Conventions for this lecture:  
+
 > Entity Name: __e_<entity_name>__  
 > Top Level Entity: e_my_<entity_name>  
 > Only one Entity per VHDL file  
   
   
   
-**Architecture description**
+## Architecture description
 ```vhdl
 architecture <arch_name> of <entity_name> is
 --Declarations (optional)
@@ -32,20 +33,20 @@ begin
 end architecture <arch_name>;
 ```
   
-:punch: __Conventions for this lecture__:
+## :punch: Conventions for this lecture 
 > Architecture will be named a_<entity_name>[_x] where _x is used if more than one description exists  
 > Possibly more than __one__ architecture per VHDL file  
   
   
   
-**Configuration description**
+##Configuration description
 ```vhdl
 configuration <config_name> of <entity_name> is
 for <arch_name> end for;
 end configuration <config_name>;
 ```
   
-:punch: __Conventions for this lecture__:
+## :punch: Conventions for this lecture
 > Configuration will be named c_<entity_name>  
 
 
