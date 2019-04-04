@@ -70,7 +70,7 @@ gen_assign_reverse_order: for j in 0 to 9 generate
 end generate;
 ```
 ## :punch: GENERATE Convention for this lecture
-> label will be named **gen_<name>**  
+> Label will be named **gen_<name>**  
 
 ## :loudspeaker: Entities as Components
 ```vhdl
@@ -83,9 +83,9 @@ end generate;
 <top_level_sig_name>, <top_level_sig_name>);
 ```
 ## :punch: COMPONENTS Conventions for this lecture
-> only one entity per VHDL file  
-> instantiation label will be named **I_<entity_name>**  
-> long instantiation form is preferable  
+> Only **ONE** entity per VHDL file  
+> Instantiation label will be named **I_<entity_name>**  
+> Long instantiation form is preferable  
 
 ## :loudspeaker:7 Segments binary Code 
 ```
