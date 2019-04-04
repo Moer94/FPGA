@@ -7,7 +7,7 @@
     <img src="https://i.imgur.com/z9PxFfZ.png">
 </p>
 
-## :bulb: Entity description
+## :loudspeark: Entity description
 ```vhdl
 entity <entity_name> is
 port (
@@ -27,7 +27,7 @@ end entity <entity_name>;
   
   
   
-## :bulb: Architecture description
+## :loudspeark: Architecture description
 ```vhdl
 architecture <arch_name> of <entity_name> is
 --Declarations (optional)
@@ -40,7 +40,7 @@ end architecture <arch_name>;
 > Architecture will be named **a_<entity_name>[_x]** where _x is used if more than one description exists  
 > Possibly more than **ONE** architecture per VHDL file  
   
-## :bulb: Configuration description
+## :loudspeark: Configuration description
 ```vhdl
 configuration <config_name> of <entity_name> is
 for <arch_name> end for;
@@ -51,7 +51,7 @@ end configuration <config_name>;
 > Configuration will be named **c_<entity_name>**  
   
   
-## :bulb: Signals
+## :loudspeark: Signals
 `signal <sig_name>: <type> [:= <default_value>];`  
 `std_logic_vector(0 to 7)` **OR** `std_logic_vector(7 downto0)`
   
