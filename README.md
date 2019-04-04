@@ -15,10 +15,12 @@ port (
 );
 end entity <entity_name>;
 ```
+  
 :punch: __Conventions for this lecture__:
 > Entity Name: __e_<entity_name>__  
 > Top Level Entity: e_my_<entity_name>  
 > Only one Entity per VHDL file  
+  
   
   
 **Architecture description**
@@ -29,10 +31,12 @@ begin
 --Assignments, Processes, …
 end architecture <arch_name>;
 ```
-
+  
 :punch: __Conventions for this lecture__:
 > Architecture will be named a_<entity_name>[_x] where _x is used if more than one description exists  
 > Possibly more than __one__ architecture per VHDL file  
+  
+  
 
 **Configuration description**
 ```vhdl
