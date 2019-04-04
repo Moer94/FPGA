@@ -5,7 +5,7 @@ Switches on the back should look like **[THIS](https://drive.google.com/file/d/1
 
 
 **Entity description** 
-```
+```vhdl
 entity <entity_name> is
 port (
 <name>: in<type>;
