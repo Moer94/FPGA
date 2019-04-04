@@ -6,7 +6,7 @@
 <p align="center">
     <img src="https://i.imgur.com/z9PxFfZ.png">
 </p>
-<br><br><br>
+
 ## Entity description
 ```vhdl
 entity <entity_name> is
@@ -18,13 +18,15 @@ port (
 );
 end entity <entity_name>;
 ```
-<br>
+
 ## :punch: **Entity** Conventions for this lecture:  
 
 > Entity Name: **e_<entity_name>**  
 > Top Level Entity: **e_my_<entity_name>**  
 > Only **ONE** Entity per VHDL file  
-<br><br><br>  
+  
+  
+  
 ## Architecture description
 ```vhdl
 architecture <arch_name> of <entity_name> is
@@ -33,25 +35,26 @@ begin
 --Assignments, Processes, …
 end architecture <arch_name>;
 ```
-<br>
+  
 ## :punch: Conventions for this lecture 
 > Architecture will be named **a_<entity_name>[_x]** where _x is used if more than one description exists  
 > Possibly more than **ONE** architecture per VHDL file  
-<br><br><br>  
+  
 ## Configuration description
 ```vhdl
 configuration <config_name> of <entity_name> is
 for <arch_name> end for;
 end configuration <config_name>;
 ```
-<br>
+  
 ## :punch: Conventions for this lecture
 > Configuration will be named **c_<entity_name>**  
-<br><br><br>
+  
+  
 ## Signals
 `signal <sig_name>: <type> [:= <default_value>];`  
 `std_logic_vector(0 to 7)` **OR** `std_logic_vector(7 downto0)`
-<br>
+  
 ## :punch: Convention for this lecture
 > **sl_<sig_name>** for type std_logic  
 > **slv_<sig_name>** for std_logic_vector  
