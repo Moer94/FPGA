@@ -3,6 +3,10 @@ Kit number:
 
 Switches on the back should look like **[THIS](https://drive.google.com/file/d/1lKUxznqdU5AkAaFCIW5_UOV_Fr8vCqHY/view?usp=sharing)** .
 
+<p align="center">
+    <img src="https://drive.google.com/file/d/1lKUxznqdU5AkAaFCIW5_UOV_Fr8vCqHY/view?usp=sharing">
+</p>
+
 
 ## Entity description
 ```vhdl
@@ -19,7 +23,7 @@ end entity <entity_name>;
 ## :punch: Conventions for this lecture:  
 
 > Entity Name: **e_<entity_name>**  
-> Top Level Entity: **e_my_<entity_name>**
+> Top Level Entity: **e_my_<entity_name>**  
 > Only **ONE** Entity per VHDL file  
   
   
@@ -54,7 +58,7 @@ end configuration <config_name>;
 `signal <sig_name>: <type> [:= <default_value>];`  
 `std_logic_vector(0 to 7)` **OR** `std_logic_vector(7 downto0)`
   
-## :punch: Concention for this lecture
+## :punch: Convention for this lecture
 > **sl_<sig_name>** for type std_logic  
 > **slv_<sig_name>** for std_logic_vector  
 > **b_<sig_name>** for bit  
