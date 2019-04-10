@@ -1,10 +1,14 @@
 ## Kit number
 > **5CSEMA5F31C6**
 
-
 ## Switches on back
 <p align="center">
     <img src="https://i.imgur.com/z9PxFfZ.png">
+</p>
+
+## Truth table Generator
+<p align="center">
+    <a href="http://web.stanford.edu/class/cs103/tools/truth-table-tool/">Truth Table Generator</a>
 </p>
 
 ## Kit Image
