@@ -1,0 +1,4 @@
+<Keep attributes>: prevents that corresponding signals will be eliminated by compiler optimization
+-- used if signal sequences have to be investigated for instance by using an integrated logic analyzer tool
+-- helpful for debugging hardware circuits
+-> after the debugging procedure and fixing the error the keep attributes should be removed since applying it can have an influence on the signal prepagation and therefore on the timing behaviour

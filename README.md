@@ -7,6 +7,11 @@
     <img src="https://i.imgur.com/z9PxFfZ.png">
 </p>
 
+## Kit Image
+<p align="center">
+    <img src="https://i.imgur.com/ensDm3r.png">
+</p>
+
 ## :loudspeaker: Entity description
 ```vhdl
 entity <entity_name> is
@@ -56,14 +61,14 @@ end configuration <config_name>;
 `std_logic_vector(0 to 7)` **OR** `std_logic_vector(7 downto0)`
 An Example of signal assignment
 ```vhdl
-slv_long<= "000000010010001101000101"; -- without sign is Binary
-slv_long<= b"000_000_010_010_001_101_000_101"; -- b stands for Binary
-slv_long<= o"0_0_2_2_1_5_0_5"; -- o stands for Octal
-slv_long<= o"00221505";
-slv_long<= b"0000_0001_0010_0011_0100_0101"; 
-slv_long<= x"0_1_2_3_4_5"; -- x stands for HEX
-slv_long<= x"01_23_45";
-slv_long<= x"012345"; 
+slv_long <= "000000010010001101000101"; -- without sign is Binary
+slv_long <= b"000_000_010_010_001_101_000_101"; -- b stands for Binary
+slv_long <= o"0_0_2_2_1_5_0_5"; -- o stands for Octal
+slv_long <= o"00221505";
+slv_long <= b"0000_0001_0010_0011_0100_0101"; 
+slv_long <= x"0_1_2_3_4_5"; -- x stands for HEX
+slv_long <= x"01_23_45";
+slv_long <= x"012345"; 
 ```
   
 ## :punch: SIGNALS Conventions for this lecture
