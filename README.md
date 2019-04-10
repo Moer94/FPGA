@@ -8,9 +8,7 @@
 
 ## Truth table Generator
 <p align="center">
-    <h3>
     <a href="http://web.stanford.edu/class/cs103/tools/truth-table-tool/">Truth Table Generator</a>
-    </h3>
 </p>
 
 ## Kit Image
